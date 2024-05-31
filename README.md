@@ -6,3 +6,6 @@ alx-frontend
 
 `npm run dev [filename]
 npx eslint --fix [filename]`
+
+`mkdir -p test && mv *main.js test/
+`
