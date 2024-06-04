@@ -1,8 +1,8 @@
 export default function cleanSet(set, startString) {
   // Input validation
-  if (!typeof startString === 'string'
-    || !typeof set === 'object'
-    || startString === ''
+  if (typeof startString !== 'string'
+    || typeof set !== 'object'
+    || startString.length === 0
   ) {
     return '';
   }
